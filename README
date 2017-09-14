@@ -1,0 +1,27 @@
+# JSON examples and exercise
+****
++ get familiar with packages for dealing with JSON
++ study examples with JSON strings and files 
++ work on exercise to be completed and submitted 
+****
++ reference: http://pandas.pydata.org/pandas-docs/stable/io.html#io-json-reader
++ data source: http://jsonstudio.com/resources/
+****
+
+## JSON exercise
+
+Using data in file 'data/world_bank_projects.json' and the techniques demonstrated above,
+1. Find the 10 countries with most projects
+2. Find the top 10 major project themes (using column 'mjtheme_namecode')
+3. In 2. above you will notice that some entries have only the code and the name is missing. Create a dataframe with the missing names filled in.
+
+
+The final assignment is located in the JSON_Assignment_Final notebook. This contains the answers to the three questions from the assignment above.
+
+Also included in this repo is the JSON_Assignment notebook. This code is the file I used to work with the data and make sure what I was doing was correct.
+It is not the final version of the assignment.
+
+The sliderule_dsi_json_exercise.ipynb notebook contains the assignment and relevant functions and methods for JSON files.
+
+The Replace Values notebook is the notebook I used to test out different things to replace missing values. It is not the final version. I did the apply() method
+as well as the sort and backfill method in this file.
